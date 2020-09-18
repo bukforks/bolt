@@ -1,4 +1,4 @@
-Bolt [![Coverage Status](https://coveralls.io/repos/boltdb/bolt/badge.svg?branch=master)](https://coveralls.io/r/boltdb/bolt?branch=master) [![GoDoc](https://godoc.org/github.com/boltdb/bolt?status.svg)](https://godoc.org/github.com/boltdb/bolt) ![Version](https://img.shields.io/badge/version-1.2.1-green.svg)
+Bolt [![Coverage Status](https://coveralls.io/repos/boltdb/bolt/badge.svg?branch=master)](https://coveralls.io/r/boltdb/bolt?branch=master) [![GoDoc](https://godoc.org/github.com/bukforks/bolt?status.svg)](https://godoc.org/github.com/bukforks/bolt) ![Version](https://img.shields.io/badge/version-1.2.1-green.svg)
 ====
 
 Bolt is a pure Go key/value store inspired by [Howard Chu's][hyc_symas]
@@ -78,7 +78,7 @@ Shopify and Heroku use Bolt-backed services every day.
 To start using Bolt, install Go and run `go get`:
 
 ```sh
-$ go get github.com/boltdb/bolt/...
+$ go get github.com/bukforks/bolt/...
 ```
 
 This will retrieve the library and install the `bolt` command line utility into
@@ -98,7 +98,7 @@ package main
 import (
 	"log"
 
-	"github.com/boltdb/bolt"
+	"github.com/bukforks/bolt"
 )
 
 func main() {
